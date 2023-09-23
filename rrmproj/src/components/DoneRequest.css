@@ -1,0 +1,29 @@
+
+.done-requests {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .done-requests h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .request-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .request-table th, .request-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .request-table th {
+    background-color: #f2f2f2;
+  }
+  

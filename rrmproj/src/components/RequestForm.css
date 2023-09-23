@@ -1,0 +1,154 @@
+
+.request-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.request-form-details {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  width: 80%; 
+  max-width: 600px; 
+}
+
+  .request-form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .request-form-container input,
+  .request-form-container select,
+  .request-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .request-form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+  
+  .request-form-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .request-form-container .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  
+  .horizontal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-row {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .form-row label {
+    min-width: 150px; 
+    margin-right: 10px;
+  }
+  
+  .form-row input,
+  .form-row select,
+  .form-row textarea {
+  flex: 1;
+}
+  
+  .form-group button {
+    margin-right: 10px;
+  }
+  
+  /* Desktop layout */
+  .form-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  /* Tablet layout */
+  @media (max-width: 768px) {
+    .form-container {
+      width: 70%;
+    }
+  }
+  
+  /* Mobile layout */
+  @media (max-width: 576px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+  
+  input[type="date"],
+  input[type="text"],
+  textarea {
+    width: 100%;
+  }
+  .request-form-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+    background-color: #f2f2f2; 
+  }
+  
+  .dashboard-link,
+  .monitoring-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 4px 12px;
+    text-decoration: none;
+    border-radius: 0px;
+    margin-right: 10px;
+  }
+  
+  .dashboard-link:hover,
+  .monitoring-link:hover {
+    background-color: #0056b3; 
+  }
+  
+  .current-time {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: auto;
+  }
+   
+  .success-message {
+    background-color: #d4edda; 
+    color: #155724; 
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  .request-header {
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+  }

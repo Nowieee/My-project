@@ -1,0 +1,33 @@
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  .current-time {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  .logout-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+  }

@@ -1,0 +1,73 @@
+
+  
+  .current-time {
+    margin-right: 10px;
+  }
+
+  .sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .cdb-sidebar {
+    width: 100%;
+    padding: 0;
+  }
+
+  .cdb-sidebar-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-link {
+    text-align: center;
+  }
+}
+
+/* Tablet and larger breakpoints */
+@media (min-width: 768px) {
+  .cdb-sidebar {
+    width: 250px;
+  }
+
+  .cdb-sidebar-content {
+    display: block;
+  }
+
+  .sidebar-link {
+    text-align: left;
+  }
+}
+
+/* Add this CSS to your Sidebar.css or create a new CSS file for styling */
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.submenu li {
+  padding-left: 20px; /* Adjust the indentation as needed */
+}
+
+.submenu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+}
+
+.submenu li a:hover {
+  background-color: #444; /* Add a hover effect */
+}
+
+

@@ -1,0 +1,43 @@
+/* Accordion container */
+.accordion-container {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Accordion item */
+  .accordion-item {
+    margin-bottom: 1px; /* Adjust the margin between accordion items */
+    background-color: #f1f1f1; /* Background color for accordion items */
+  }
+  
+  /* Accordion button (title) */
+  .accordion-button {
+    background-color: #333; /* Background color for the accordion button */
+    color: white; /* Text color for the accordion button */
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Active accordion button */
+  .accordion-button.active {
+    background-color: #555; /* Background color when accordion is active */
+  }
+  
+  /* Accordion content */
+  .accordion-content {
+    display: none;
+    padding: 10px 0;
+    background-color: white; /* Background color for the accordion content */
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Show the content when active */
+  .accordion-content.show {
+    display: block;
+  }
+  
